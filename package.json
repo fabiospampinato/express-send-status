@@ -35,7 +35,11 @@
     "type": "git",
     "url": "https://github.com/fabiospampinato/express-send-status.git"
   },
-  "keywords": [],
+  "keywords": [
+    "express",
+    "middleware",
+    "status"
+  ],
   "dependencies": {
     "@types/lodash": "^4.14.56",
     "lodash": "^4.17.4"
