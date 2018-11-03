@@ -1,8 +1,5 @@
 # Express Send Status
 
-![Issues](https://img.shields.io/github/issues/fabiospampinato/express-send-status.svg)
-[![NPM version](https://img.shields.io/npm/v/express-send-status.svg)](https://www.npmjs.com/package/express-send-status)
-
 Express middleware for responding with a status code and optional message.
 
 ## Install
