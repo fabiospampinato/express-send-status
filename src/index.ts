@@ -27,4 +27,4 @@ function expressSendStatus ( status: number, message?: string ) {
 
 /* EXPORT */
 
-export default expressSendStatus;
+export = Object.assign ( expressSendStatus, { default: expressSendStatus } );
