@@ -1,7 +1,7 @@
 
 /* IMPORT */
 
-import * as _ from 'lodash';
+import * as isString from 'lodash.isstring';
 
 /* EXPRESS SEND STATUS */
 
@@ -9,7 +9,7 @@ function expressSendStatus ( status: number, message?: string ) {
 
   return ( req, res ) => {
 
-    if ( _.isString ( message ) ) {
+    if ( isString ( message ) ) {
 
       res.set ( 'Content-Type', 'text/plain' )
           .status ( status )
