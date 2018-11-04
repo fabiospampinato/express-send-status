@@ -1,7 +1,7 @@
 
 /* IMPORT */
 
-import * as isString from 'lodash.isstring';
+import isString from 'lodash/isString';
 
 /* EXPRESS SEND STATUS */
 
