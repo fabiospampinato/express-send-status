@@ -1,6 +1,6 @@
 {
   "name": "express-send-status",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Express middleware for responding with a status code and optional message.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
