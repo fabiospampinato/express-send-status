@@ -1,7 +1,7 @@
 
 /* IMPORT */
 
-import isString from 'lodash/isString';
+import isString = require ( 'lodash/isString' );
 
 /* EXPRESS SEND STATUS */
 
